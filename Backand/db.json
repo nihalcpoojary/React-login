@@ -1,0 +1,28 @@
+{
+  "User": [
+    {
+      "name": " create",
+      "salary": " 12222",
+      "company": " tcs",
+      "id": 1
+    },
+    {
+      "name": " ashwin",
+      "salary": " 12000",
+      "company": " tcs",
+      "id": 2
+    },
+    {
+      "name": " nihal",
+      "salary": " 20000",
+      "company": " wipro",
+      "id": 3
+    },
+    {
+      "name": " Nihal Poojary",
+      "salary": " 200000",
+      "company": " winman",
+      "id": 4
+    }
+  ]
+}

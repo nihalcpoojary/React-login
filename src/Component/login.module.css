@@ -1,0 +1,238 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.nav{
+height: 80px;
+width: 100%;
+background-color: rgb(20, 117, 83);
+display: flex;
+justify-content: space-around;
+align-items: center;
+/* position: fixed; */
+}
+.nav>a{
+font-size: large;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 600;
+font-style: italic;
+text-decoration: none;
+color: white;
+}
+.myform{
+height: 700px;
+width: 100%;
+background-color: rgb(20, 62, 84);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.myfor{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(20, 62, 84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+/*-------------update-----------*/
+    .myfor>form{
+        height: 320px;
+        width: 290px;
+        /* background-color: rgb(99, 205, 247); */
+        background-image: linear-gradient( yellow, pink);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        line-height: 30px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgb(194, 235, 244);
+        }  
+        .myfor>form>label{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            padding-top: 5px;
+            }
+            .myfor>form>input{
+                width: 250px;
+                height: 30px;
+                outline: none;
+                font-size: 15px;
+                border-radius: 5px;
+                padding-left: 5px;
+                border-style: none;
+                }
+                .myfor>form>button{
+                    width: 100px;
+                    height: 30px;
+                    font-size: 10px;
+                    margin-top: 15px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    border-radius: 5px;
+                    box-shadow: 0px 0px 5px black;
+                    background-color: rgb(197, 243, 243); 
+                    } 
+                    .myfor>form>button:hover{
+                        transform: scale(1.1);
+                        cursor: pointer;
+                    }
+/*-----------------------------------------*/                    
+.myform>form{
+height: 320px;
+width: 290px;
+/* background-color: rgb(99, 205, 247); */
+background-image: linear-gradient( yellow, pink);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+line-height: 40px;
+border-radius: 5px;
+box-shadow: 0px 0px 10px rgb(194, 235, 244);
+}
+.myform>form>label{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+padding-top: 5px;
+}
+.myform>form>input{
+width: 250px;
+height: 30px;
+outline: none;
+font-size: 15px;
+border-radius: 5px;
+padding-left: 5px;
+border-style: none;
+}
+.myform>form>button{
+width: 100px;
+height: 30px;
+font-size: 10px;
+margin-top: 15px;
+font-family: Arial, Helvetica, sans-serif;
+border-radius: 5px;
+box-shadow: 0px 0px 5px black;
+background-color: rgb(197, 243, 243); 
+} 
+.myform>form>button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.main{
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    background-color:cadetblue;   
+}
+h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* text-shadow: 0px 0px 20px black; */
+    color: black;
+}
+.card{
+   border: 2px solid black;
+   /* height: 250px; */
+   /* width: 250px;   */
+   background: palegoldenrod;
+   border-radius: 30px;
+   padding: 20px;
+   margin: 30px;
+   cursor: pointer;
+   box-shadow: 0px 0px 20px black;
+}
+.head{
+    border-bottom: 1px solid black;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+h3{
+    margin-top: 12px;
+}
+h3:hover{
+    transform: scale(1.1);
+}
+.h1:hover{
+    transform: scale(1.1);
+}
+.but{
+    height: 32px;
+    width:80px;
+    background-color: aqua;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 10px black;
+    margin-left: 6px;
+}
+.but>a{
+    text-decoration: none;
+    color: black;
+}
+.li{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.but:hover{
+    transform: scale(1.1);
+}
+.b1{
+    margin: 20px;
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px black;
+}
+.b1:hover{
+    transform: scale(1.1);
+}
+.b2{
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px black;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.b2:hover{
+    transform: scale(1.1);
+    color: white;
+}
+h1:hover{
+    transform: scale(1.1);
+}
+.b1{
+    margin: 20px;
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px black;
+    background-color: rgb(197, 243, 152);
+
+}
+.b1:hover{
+    transform: scale(1.1);
+    /* color: aliceblue; */
+}
+.b2{
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px black;
+}
+.b2:hover{
+    transform: scale(1.1);
+}
+
